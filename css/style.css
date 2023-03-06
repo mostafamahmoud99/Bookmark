@@ -1,0 +1,54 @@
+@media (max-width: 500px) {
+  .container .item {
+    padding: 15px !important;
+  }
+  .container .item .w-75 {
+    width: 100% !important;
+  }
+}
+
+.alert {
+  padding: 5px;
+  background-color: #ffb2b2 !important;
+  font-weight: bold;
+  display: none;
+}
+
+#bookmark-card {
+  margin: 2rem 0;
+  padding: 10px;
+  border-radius: 0.3rem;
+  border: 0.1px solid #ced4da;
+  transition: all 0.5s;
+}
+/* @media (max-width: 500px) {
+  #bookmark-card .bookmark-item .bookmark-name {
+    width: 35% !important;
+    color: #fc46cf !important;
+  }
+  #bookmark-card .bookmark-item .action {
+    width: 75% !important;
+  }
+} */
+
+#bookmark-card:hover {
+  background-color: #f5efe5;
+}
+
+#bookmark-card h3 {
+  color: #797474;
+}
+
+#visit-btn,
+.edit-btn {
+  color: #fff;
+  transition: all 0.5s;
+}
+
+#bookmark-card .pink-btn:hover .visit-btn {
+  color: #fc46cf;
+}
+
+#bookmark-card .gray-btn:hover .edit-btn {
+  color: #9e9995;
+}

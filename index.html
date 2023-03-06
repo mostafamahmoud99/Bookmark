@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>BookMark</title>
+</head>
+
+<body>
+    <div class="container p-5">
+        <h2 class="mb-5 text-muted">Bookmarker</h2>
+        <div class="border"></div>
+        <div class="item p-5 text-center">
+            <div class="w-75 m-auto">
+                <h3 class="mb-4">Bookmark your favorite sites</h3>
+                <p class="mb-3 fw-bold">Site Name</p>
+                <input type="text" placeholder="Bookmark Name" class="form-control" id="siteName">
+                <p class="my-3 fw-bold">Site URL</p>
+                <input type="text" placeholder="Bookmark URL" class="form-control" id="siteUrl">
+                <div class="my-2 text-danger d-none" id="requireInput">
+                    inputs empty
+                </div>
+                <button class="btn btn-primary mt-3" id="addBtn">Submit</button>
+            </div>
+        </div>
+        <div id="bookmarkList">
+
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/mine.js"></script>
+</body>
+
+</html>
